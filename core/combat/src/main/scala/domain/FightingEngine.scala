@@ -1,6 +1,6 @@
 package domain
 
-import characters.DndCharacter
+import model.DndCharacter
 import errors.Death
 import in.{ForFighting, NewCharacterState}
 import out.{RandomnessPortOut, FightRenderingPortOut}

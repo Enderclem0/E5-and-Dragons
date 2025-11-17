@@ -1,4 +1,4 @@
-package characters
+package model
 
 import actions.CombatAction
 import rolls.Die.D6

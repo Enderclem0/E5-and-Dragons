@@ -1,6 +1,6 @@
 package data
 
-import characters.DndCharacter
+import model.DndCharacter
 import model.DndMapState
 import out.{CombatDataPortOut, ExplorationDataPortOut}
 

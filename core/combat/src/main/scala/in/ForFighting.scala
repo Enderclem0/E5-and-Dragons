@@ -1,6 +1,6 @@
 package in
 
-import characters.DndCharacter
+import model.DndCharacter
 import errors.Death
 
 type NewCharacterState = DndCharacter
