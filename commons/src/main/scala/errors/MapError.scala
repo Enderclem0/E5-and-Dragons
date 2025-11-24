@@ -1,5 +1,7 @@
 package errors
 
-object MapError:
-  final case class IllegalMapFormat() extends MapError
 sealed trait MapError extends Throwable
+
+object MapError:
+  final case class IllegalMapFormat(message: String) extends MapError:
+    override def getMessage: String = message
